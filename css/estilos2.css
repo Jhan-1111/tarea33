@@ -1,0 +1,97 @@
+.padre{
+    background-color: yellow;
+    padding: 5px;
+    font-size: 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: "inicio inicio inicio inicio paginadejhanethpacorios paginadejhanethpacorios paginadejhanethpacorios paginadejhanethpacorios "
+                         "menu menu menu menu menu menu menu menu"
+                         "ads1 imag1 imag2 caja1 caja2 caja2 caja2 ads2 "
+                         "ads1 imag1 imag2 caja1 caja3 caja4 caja4 ads2 "
+                         "ads1 imag3 imag4 caja1 caja3 caja5 caja6 ads2"
+                         "ads1 imag3 imag4 caja1 caja3 caja5 caja6 ads2"
+                         "ads1 derechodejhanethPR2025 derechodejhanethPR2025 derechodejhanethPR2025 derechodejhanethPR2025 derechodejhanethPR2025 derechodejhanethPR2025 ads2 "
+                         
+                 
+                         ;
+}
+.padre .inicio{
+    background-color: red;
+    margin: 5px;
+    grid-area: inicio;
+}
+.padre .paginadejhanethpacorios{
+    background-color: red;
+    margin: 5px;
+    grid-area: paginadejhanethpacorios;
+}
+.padre .menu{
+    background-color: red;
+    margin: 5px;
+    grid-area: menu;
+}
+.padre .ads1{
+    background-color: red;
+    margin: 5px;
+    grid-area: ads1;
+}
+.padre .imag1{
+    background-color: pink;
+    margin: 5px;
+    grid-area: imag1;
+}
+.padre .imag2{
+    background-color: pink;
+    margin: 5px;
+    grid-area: imag2;
+}
+.padre .imag3{
+    background-color: pink;
+    margin: 5px;
+    grid-area: imag3;
+}
+.padre .imag4{
+    background-color: pink;
+    margin: 5px;
+    grid-area: imag4;
+}
+.padre .caja1{
+    background-color: orange;
+    margin: 5px;
+    grid-area: caja1;
+}
+.padre .caja2{
+    background-color: orange;
+    margin: 5px;
+    grid-area: caja2;
+}
+.padre .caja3{
+    background-color: orange;
+    margin: 5px;
+    grid-area: caja3;
+}
+.padre .caja4{
+    background-color: orange;
+    margin: 5px;
+    grid-area: caja4;
+}
+.padre .caja5{
+    background-color: orange;
+    margin: 5px;
+    grid-area: caja5;
+}
+.padre .caja6{
+    background-color: orange;
+    margin: 5px;
+    grid-area: caja6;
+}
+.padre .ads2{
+    background-color: red;
+    margin: 5px;
+    grid-area: ads2;
+}
+.padre .derechodejhanethPR2025{
+    background-color: red;
+    margin: 5px;
+    grid-area: derechodejhanethPR2025;
+}
